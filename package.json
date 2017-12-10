@@ -1,0 +1,26 @@
+{
+  "name": "sms_using_node",
+  "version": "1.0.0",
+  "description": "this is web application that will send sms to the desire no ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhp154154/Sending_sms_from_node.git"
+  },
+  "author": "Parikshit Singh <singhp154154@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhp154154/Sending_sms_from_node/issues"
+  },
+  "homepage": "https://github.com/singhp154154/Sending_sms_from_node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nexmo": "^2.0.2",
+    "socket.io": "^2.0.4"
+  }
+}
